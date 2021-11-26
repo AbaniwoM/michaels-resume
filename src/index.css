@@ -1,0 +1,1343 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.container {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headerContainer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin-left: 200px;
+    height: 30vh;
+    margin-top: 50px;
+}
+
+.head1 {
+    font-size: 3.1rem;
+    padding-top: 15px;
+}
+
+.head2 {
+    padding-top: 8px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.para3 {
+    padding-top: 8px;
+    font-style: italic;
+}
+
+.para4 {
+    padding-top: 8px;
+}
+
+.bodyWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summary {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.sum {
+    background-color: black;
+    width: 14%;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.sumP {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.github {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.git {
+    background-color: black;
+    width: 14%;
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.hub {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.hub a {
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.portfolio {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.port {
+    background-color: black;
+    width: 18%;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.list {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.list a {
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.project {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.proj {
+    background-color: black;
+    width: 25%;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.list2 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.list2 a {
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.workExperience {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.work {
+    background-color: black;
+    width: 22%;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 1.1rem;
+}
+
+.zuriHeader {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.zuriHeader a {
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.workP {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.workP2 {
+    font-size: 1.1rem;
+    margin-top: 5px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.truparse {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.education {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.edu {
+    background-color: black;
+    width: 18%;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 1.1rem;
+}
+
+.eduHeader {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.certifications {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.cert {
+    background-color: black;
+    width: 21%;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 1.1rem;
+}
+
+.certP {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.skills {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.ski1 {
+    background-color: black;
+    width: 13%;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 1.1rem;
+}
+
+.ski2 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.skiP {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.ski3 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.skiP2 {
+    font-size: 1.1rem;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.ski4 {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.skiP3 {
+    font-size: 1.1rem;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 101.2%;
+    text-align: center;
+    margin-top: 100px;
+    height: 30vh;
+    margin-right: -4px;
+    margin-left: -4px;
+    margin-bottom: -10px;
+}
+
+.footer h3 {
+    padding-top: 52px;
+    font-size: 1.3rem;
+}
+
+.footer h3 a {
+    text-decoration: none;
+}
+
+.footer h4 {
+    font-size: 1.3rem;
+    margin-top: -10px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 320px) {
+    .headerContainer {
+        margin-left: 32px;
+        height: 42vh;
+        width: 80%;
+    }
+
+    .header1 {
+        padding: 10px;
+    }
+
+    .head1 {
+        font-size: 1.7rem;
+    }
+
+    .head2 {
+        font-size: 0.9rem;
+    }
+
+    .para3 {
+        font-size: 0.9rem;
+    }
+
+    .para4 {
+        font-size: 0.9rem;
+    }
+
+    .sum {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .summary {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .sumP {
+        font-size: 1rem;
+    }
+
+    .git {
+        width: 45%;
+        font-size: 1rem;
+    }
+
+    .github {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .hub {
+        font-size: 1rem;
+    }
+
+    .port {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    .portfolio {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list {
+        font-size: 1rem;
+    }
+
+    .proj {
+        width: 83%;
+        font-size: 1rem;
+    }
+
+    .project {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list2 {
+        font-size: 1rem;
+    }
+
+    .work {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .workExperience {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .zuriHeader {
+        font-size: 1rem;
+    }
+
+    .workP {
+        font-size: 1rem;
+    }
+
+    .workP2 {
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    .truHeader {
+        font-size: 1rem;
+    }
+
+    .truP {
+        font-size: 1rem;
+    }
+
+    .truP2 {
+        font-size: 1rem;
+    }
+
+    .edu {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .education {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .eduHeader {
+        font-size: 1rem;
+    }
+
+    .cert {
+        width: 65%;
+        font-size: 1rem;
+    }
+
+    .certifications {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .certP {
+        font-size: 1rem;
+    }
+
+    .ski1 {
+        width: 40%;
+        font-size: 1rem;
+    }
+
+    .skills {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .ski2 {
+        font-size: 1rem;
+    }
+
+    .skiP {
+        font-size: 1rem;
+    }
+    
+    .ski3 {
+        font-size: 1rem;
+    }
+
+    .skiP2 {
+        font-size: 1rem;
+    }
+
+    .ski4 {
+        font-size: 1rem;
+    }
+
+    .skiP3 {
+        font-size: 1rem;
+    }
+
+    .footer {
+        width: 105%;
+    }
+
+    .footer h3 {
+        font-size: 1.1rem;
+        width: 70%;
+        margin-left: 42px;
+        margin-top: -10px;
+        line-height: 26px;
+    }
+
+    .footer h4 {
+        font-size: 1.1rem;
+        margin-left: -10px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+    .headerContainer {
+        margin-left: 37px;
+        height: 42vh;
+        width: 80%;
+    }
+
+    .header1 {
+        padding: 10px;
+    }
+
+    .head1 {
+        font-size: 1.7rem;
+    }
+
+    .head2 {
+        font-size: 0.9rem;
+    }
+
+    .para3 {
+        font-size: 0.9rem;
+    }
+
+    .para4 {
+        font-size: 0.9rem;
+    }
+
+    .sum {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .summary {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .sumP {
+        font-size: 1rem;
+    }
+
+    .git {
+        width: 45%;
+        font-size: 1rem;
+    }
+
+    .github {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .hub {
+        font-size: 1rem;
+    }
+
+    .port {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    .portfolio {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list {
+        font-size: 1rem;
+    }
+
+    .proj {
+        width: 83%;
+        font-size: 1rem;
+    }
+
+    .project {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list2 {
+        font-size: 1rem;
+    }
+
+    .work {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .workExperience {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .zuriHeader {
+        font-size: 1rem;
+    }
+
+    .workP {
+        font-size: 1rem;
+    }
+
+    .workP2 {
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    .truHeader {
+        font-size: 1rem;
+    }
+
+    .truP {
+        font-size: 1rem;
+    }
+
+    .truP2 {
+        font-size: 1rem;
+    }
+
+    .edu {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .education {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .eduHeader {
+        font-size: 1rem;
+    }
+
+    .cert {
+        width: 65%;
+        font-size: 1rem;
+    }
+
+    .certifications {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .certP {
+        font-size: 1rem;
+    }
+
+    .ski1 {
+        width: 40%;
+        font-size: 1rem;
+    }
+
+    .skills {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .ski2 {
+        font-size: 1rem;
+    }
+
+    .skiP {
+        font-size: 1rem;
+    }
+    
+    .ski3 {
+        font-size: 1rem;
+    }
+
+    .skiP2 {
+        font-size: 1rem;
+    }
+
+    .ski4 {
+        font-size: 1rem;
+    }
+
+    .skiP3 {
+        font-size: 1rem;
+    }
+
+    .footer {
+        width: 105%;
+    }
+
+    .footer h3 {
+        font-size: 1.1rem;
+        width: 70%;
+        margin-left: 52px;
+        margin-top: -10px;
+        line-height: 26px;
+    }
+
+    .footer h4 {
+        font-size: 1.1rem;
+        margin-left: -13px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    .headerContainer {
+        margin-left: 42px;
+        height: 37vh;
+        width: 80%;
+    }
+
+    .header1 {
+        padding: 10px;
+    }
+
+    .head1 {
+        font-size: 1.7rem;
+    }
+
+    .head2 {
+        font-size: 0.9rem;
+    }
+
+    .para3 {
+        font-size: 0.9rem;
+    }
+
+    .para4 {
+        font-size: 0.9rem;
+    }
+
+    .sum {
+        width: 40%;
+        font-size: 1rem;
+    }
+
+    .summary {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .sumP {
+        font-size: 1rem;
+    }
+
+    .git {
+        width: 35%;
+        font-size: 1rem;
+    }
+
+    .github {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .hub {
+        font-size: 1rem;
+    }
+
+    .port {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .portfolio {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list {
+        font-size: 1rem;
+    }
+
+    .proj {
+        width: 73%;
+        font-size: 1rem;
+    }
+
+    .project {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list2 {
+        font-size: 1rem;
+    }
+
+    .work {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    .workExperience {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .zuriHeader {
+        font-size: 1rem;
+    }
+
+    .workP {
+        font-size: 1rem;
+    }
+
+    .workP2 {
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    .truHeader {
+        font-size: 1rem;
+    }
+
+    .truP {
+        font-size: 1rem;
+    }
+
+    .truP2 {
+        font-size: 1rem;
+    }
+
+    .edu {
+        width: 40%;
+        font-size: 1rem;
+    }
+
+    .education {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .eduHeader {
+        font-size: 1rem;
+    }
+
+    .cert {
+        width: 55%;
+        font-size: 1rem;
+    }
+
+    .certifications {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .certP {
+        font-size: 1rem;
+    }
+
+    .ski1 {
+        width: 30%;
+        font-size: 1rem;
+    }
+
+    .skills {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .ski2 {
+        font-size: 1rem;
+    }
+
+    .skiP {
+        font-size: 1rem;
+    }
+    
+    .ski3 {
+        font-size: 1rem;
+    }
+
+    .skiP2 {
+        font-size: 1rem;
+    }
+
+    .ski4 {
+        font-size: 1rem;
+    }
+
+    .skiP3 {
+        font-size: 1rem;
+    }
+
+    .footer {
+        width: 105%;
+    }
+
+    .footer h3 {
+        font-size: 1.1rem;
+        width: 70%;
+        margin-left: 52px;
+        margin-top: -10px;
+        line-height: 26px;
+    }
+
+    .footer h4 {
+        font-size: 1.1rem;
+        margin-left: -30px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .headerContainer {
+        margin-left: 77px;
+        height: 37vh;
+        width: 80%;
+        margin-top: 70px;
+    }
+
+    .header1 {
+        padding: 20px;
+    }
+
+    .head1 {
+        font-size: 3rem;
+    }
+
+    .head2 {
+        font-size: 1.3rem;
+    }
+
+    .para3 {
+        font-size: 1.2rem;
+    }
+
+    .para4 {
+        font-size: 1.1rem;
+    }
+
+    .sum {
+        width: 23%;
+        font-size: 1.2rem;
+    }
+
+    .summary {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .sumP {
+        font-size: 1.1rem;
+    }
+
+    .git {
+        width: 20%;
+        font-size: 1.2rem;
+    }
+
+    .github {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .hub {
+        font-size: 1.1rem;
+    }
+
+    .port {
+        width: 30%;
+        font-size: 1.2rem;
+    }
+
+    .portfolio {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list {
+        font-size: 1.1rem;
+    }
+
+    .proj {
+        width: 43%;
+        font-size: 1.2rem;
+    }
+
+    .project {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list2 {
+        font-size: 1.1rem;
+    }
+
+    .work {
+        width: 35%;
+        font-size: 1.2rem;
+    }
+
+    .workExperience {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .zuriHeader {
+        font-size: 1.1rem;
+    }
+
+    .workP {
+        font-size: 1.1rem;
+    }
+
+    .workP2 {
+        font-size: 1.1rem;
+        line-height: 32px;
+    }
+
+    .truHeader {
+        font-size: 1.1rem;
+    }
+
+    .truP {
+        font-size: 1.1rem;
+    }
+
+    .truP2 {
+        font-size: 1.1rem;
+    }
+
+    .edu {
+        width: 24%;
+        font-size: 1.2rem;
+    }
+
+    .education {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .eduHeader {
+        font-size: 1.1rem;
+    }
+
+    .cert {
+        width: 32%;
+        font-size: 1.2rem;
+    }
+
+    .certifications {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .certP {
+        font-size: 1.1rem;
+    }
+
+    .ski1 {
+        width: 18%;
+        font-size: 1.2rem;
+    }
+
+    .skills {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .ski2 {
+        font-size: 1.1rem;
+    }
+
+    .skiP {
+        font-size: 1.1rem;
+    }
+    
+    .ski3 {
+        font-size: 1.1rem;
+    }
+
+    .skiP2 {
+        font-size: 1.1rem;
+    }
+
+    .ski4 {
+        font-size: 1.1rem;
+    }
+
+    .skiP3 {
+        font-size: 1.1rem;
+    }
+
+    .footer {
+        width: 102%;
+    }
+
+    .footer h3 {
+        font-size: 1.3rem;
+        width: 70%;
+        margin-left: 110px;
+        margin-top: 20px;
+        line-height: 26px;
+    }
+
+    .footer h4 {
+        font-size: 1.3rem;
+        margin-left: -40px;
+    } 
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .headerContainer {
+        margin-left: 102px;
+        height: 30vh;
+        width: 80%;
+        margin-top: 70px;
+    }
+
+    .header1 {
+        padding: 30px;
+    }
+
+    .head1 {
+        font-size: 4rem;
+    }
+
+    .head2 {
+        font-size: 1.5rem;
+    }
+
+    .para3 {
+        font-size: 1.5rem;
+    }
+
+    .para4 {
+        font-size: 1.4rem;
+    }
+
+    .sum {
+        width: 22%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .summary {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .sumP {
+        font-size: 1.5rem;
+        line-height: 35px;
+        margin-top: 21px;
+    }
+
+    .git {
+        width: 17%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .github {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .hub {
+        font-size: 1.5rem;
+        margin-top: 25px;
+    }
+
+    .port {
+        width: 27%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .portfolio {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list {
+        font-size: 1.5rem;
+        margin-top: 22px;
+    }
+
+    .proj {
+        width: 40%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .project {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .list2 {
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+
+    .work {
+        width: 33%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .workExperience {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .zuriHeader {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .workP {
+        font-size: 1.5rem;
+        margin-top: 17px;
+        line-height: 38px;
+    }
+
+    .workP2 {
+        font-size: 1.5rem;
+        line-height: 38px;
+    }
+
+    .truHeader {
+        font-size: 1.5rem;
+    }
+
+    .truP {
+        font-size: 1.5rem;
+    }
+
+    .truP2 {
+        font-size: 1.5rem;
+    }
+
+    .edu {
+        width: 24%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .education {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .eduHeader {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .cert {
+        width: 30%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .certifications {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .certP {
+        font-size: 1.5rem;
+    }
+
+    .ski1 {
+        width: 16%;
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .skills {
+        margin-left: 6px;
+        width: 80%;
+    }
+
+    .ski2 {
+        font-size: 1.5rem;
+    }
+
+    .skiP {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+    
+    .ski3 {
+        font-size: 1.5rem;
+    }
+
+    .skiP2 {
+        font-size: 1.5rem;
+        margin-top: 11px;
+    }
+
+    .ski4 {
+        font-size: 1.5rem;
+    }
+
+    .skiP3 {
+        font-size: 1.5rem;
+        margin-top: 11px;
+    }
+
+    .footer {
+        width: 101.5%;
+    }
+
+    .footer h3 {
+        font-size: 1.7rem;
+        width: 70%;
+        margin-left: 150px;
+        margin-top: 60px;
+        line-height: 26px;
+    }
+
+    .footer h4 {
+        font-size: 1.7rem;
+        margin-left: -40px;
+    } 
+}
+
+
+
